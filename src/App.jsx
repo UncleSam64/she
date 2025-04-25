@@ -23,7 +23,7 @@ const theme = createTheme({
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <BrowserRouter basename="/she">
+      <BrowserRouter basename="/">
         <Routes>
           <Route path="/" element={<Login />} />
           <Route path="/dashboard" element={<RutaProtegida><Layout /></RutaProtegida>}>
